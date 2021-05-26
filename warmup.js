@@ -3,15 +3,18 @@ var b = 20;
 console.log(a+b);
 console.log("a+b");
 
+
 var name = "빙봉";
 var num = 39;
 console.log(name);
 console.log(num);
 
+
 var samsung = 80000;
 var kakao = 300000;
 var hong = (100 * samsung) + (80 * kakao);
 console.log(hong);
+
 
 var samsung = samsung * 1.2;
 var kakao = kakao * 0.9;
@@ -29,6 +32,7 @@ if (score >= 90) {
 } else {
     alert("F등급입니다.");
 }
+
 
 var a = prompt("첫번째 정수 입력: ");
 var b = prompt("두번째 정수 입력: "); 
